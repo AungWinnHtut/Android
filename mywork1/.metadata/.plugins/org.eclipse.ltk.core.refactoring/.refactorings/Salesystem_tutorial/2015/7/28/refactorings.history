@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/Salesystem_tutorial/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/Salesystem_tutorial" sel-end="227" sel-start="0" stamp="1436151189176" type="android.widget.LinearLayout"/>&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/Salesystem_tutorial/res/layout/activity_sale_.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/Salesystem_tutorial" sel-end="227" sel-start="0" stamp="1436169521596" type="android.widget.LinearLayout"/>
+</session>

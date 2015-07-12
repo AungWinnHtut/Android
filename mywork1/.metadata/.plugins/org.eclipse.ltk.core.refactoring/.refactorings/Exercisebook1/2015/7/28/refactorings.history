@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Layout" description="Change Layout" file="/Exercisebook1/res/layout/activity_ex_1.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/Exercisebook1" sel-end="227" sel-start="0" stamp="1436066816568" type="android.widget.LinearLayout"/>
+</session>

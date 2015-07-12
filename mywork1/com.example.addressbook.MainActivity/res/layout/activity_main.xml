@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#223355"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FF1122"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtDetailBC"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#223355"
+            android:gravity="center"
+            android:text="တပ္မေတာ္(ၾကည္း/ေရ/ေလ) အရာရွိမ်ားအတြက္သာ"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:background="#CCDDEE" >
+
+            <Button
+                android:id="@+id/btnnew"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="#ffab91"
+                android:text="အသစ္ထည့္ရန္" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:background="#223355" />
+
+            <Button
+                android:id="@+id/btnview"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="#69f0ae"
+                android:text="ၾကည့္ရႈရန္" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:background="#223355" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:background="#CCDDEE" >
+
+            <Button
+                android:id="@+id/btnupdate"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="#e040fb"
+                android:text="ျပင္ဆင္ရန္" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:background="#223355" />
+
+            <Button
+                android:id="@+id/btnexist"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="#c6ff00"
+                android:text="ထြက္ရန္" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#223355" />
+    </LinearLayout>
+
+</RelativeLayout>

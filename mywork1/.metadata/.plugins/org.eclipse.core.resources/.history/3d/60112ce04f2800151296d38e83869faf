@@ -1,0 +1,46 @@
+package com.example.sale_system;
+
+import android.app.Activity;
+import android.app.AlertDialog.Builder;
+import android.content.ClipData.Item;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class MainActivity extends Activity {
+
+	EditText username,password,email,phoneno;
+	Button add,delete,modify,view;
+	SQLiteDatabase db;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        username=(EditText)findViewById(R.id.txtusername);
+        password=(EditText)findViewById(R.id.txtpassword);
+        email=(EditText)findViewById(R.id.txtemail);
+        phoneno=(EditText)findViewById(R.id.txtphone);
+        ///-------------------------------------
+        add=(Button)findViewById(R.id.btnadd);
+        delete=(Button)findViewById(R.id.btndelete);
+        modify=(Button)findViewById(R.id.btnmodify);
+        view=(Button)findViewById(R.id.btnview);
+        //-------------------------------
+        add.setOnClickListener(this);
+        delete.setOnClickListener(this);
+        modify.setOnClickListener(this);
+        view.setOnClickListener(this);
+       
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+}

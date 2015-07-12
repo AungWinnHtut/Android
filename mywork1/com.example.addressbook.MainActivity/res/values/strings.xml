@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AddressBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Rank"></string>
+    <string name="Unit"></string>
+    <string name="Education"></string>
+    <string name="Address"></string>
+    <string name="Ph"></string>
+    <string name="Intake"></string>
+
+</resources>
