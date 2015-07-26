@@ -1,0 +1,42 @@
+package com.example.sqlitebroser;
+
+import java.util.ArrayList;
+import java.util.List;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.widget.EditText;
+
+public class Sqlconnector {
+	private SQLiteDatabase database;
+	private SqlLiteDbHelper sqlitedbhelper;
+	private Cursor cursor;
+	EditText name;
+	private static final String Tbl = "contact";
+
+	
+	public Sqlconnector(Context context) {
+		sqlitedbhelper = new SqlLiteDbHelper(context);
+	}
+
+	public List<String> getAllRecord(int k) {
+		List<String> studentlist = new ArrayList<String>();
+		String selectquery = "SELECT * FROM " + Tbl;
+		database = sqlitedbhelper.getReadableDatabase();
+		cursor = database.rawQuery(selectquery, null);
+		if (cursor.moveToFirst()) {
+			do {
+				studentlist.add(cursor.getString(k));
+			} while (cursor.moveToNext());
+
+		}
+
+		//database.close();
+		return studentlist;
+	}
+	public void insert(String name1){
+		
+		database.execSQL("INSERT INTO contact VALUES(null,'"+name1+"',null,null);");
+		database.close();
+	}
+}
