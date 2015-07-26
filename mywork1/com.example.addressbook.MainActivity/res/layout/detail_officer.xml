@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="14dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="ျပန္တမ္း၀င္အမွတ္" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/txtDetailOfficerBC"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="14dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="အဆင့္" />
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/txtDetailOfficerRank"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/View03"
+            android:layout_width="14dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="အမည္" />
+
+        <View
+            android:id="@+id/View04"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/txtDetailOfficerName"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/View05"
+            android:layout_width="14dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="တပ္" />
+
+        <View
+            android:id="@+id/View06"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/txtDetailOfficerUnit"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/View07"
+            android:layout_width="14dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="ပညာအရည္အခ်င္း" />
+
+        <View
+            android:id="@+id/View08"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/txtDetailOfficerEducation"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/View09"
+            android:layout_width="14dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="အပတ္စဥ္" />
+
+        <View
+            android:id="@+id/View10"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/txtDetailOfficerIntake"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/View11"
+            android:layout_width="14dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="ေနရပ္လိပ္စာ" />
+
+        <View
+            android:id="@+id/View12"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/txtDetailOfficerAddress"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/View13"
+            android:layout_width="14dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="ဖုန္းနံပါတ္" />
+
+        <View
+            android:id="@+id/View14"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/txtDetailOfficerPh"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp" />
+
+    <Button
+        android:id="@+id/btnDetailOfficerClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+
+</LinearLayout>

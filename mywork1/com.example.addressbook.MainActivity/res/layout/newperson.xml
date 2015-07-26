@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp" >
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtID"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="ျပန္တမ္း၀င္အမွတ္" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtBc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="အဆင့္" />
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp" >
+
+        <View
+            android:id="@+id/View03"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="အမည္" />
+
+        <View
+            android:id="@+id/View04"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp" >
+
+        <View
+            android:id="@+id/View06"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="တပ္" />
+
+        <View
+            android:id="@+id/View05"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <View
+            android:id="@+id/View07"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="ပညာအရည္အခ်င္း" />
+
+        <View
+            android:id="@+id/View08"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp" >
+
+        <View
+            android:id="@+id/View10"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="အပတ္စဥ္" />
+
+        <View
+            android:id="@+id/View09"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtIntake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="44dp" >
+
+        <View
+            android:id="@+id/View12"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="ေနရပ္လိပ္စာ" />
+
+        <View
+            android:id="@+id/View11"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="39dp" >
+
+        <View
+            android:id="@+id/View14"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="ဖုန္းနံပါတ္" />
+
+        <View
+            android:id="@+id/View13"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtPh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.00"
+            android:background="#64b5f6"
+            android:text="Save" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00" />
+
+        <Button
+            android:id="@+id/btnNewpersonBack"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:background="#64b5f6"
+            android:text="Back" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
